@@ -1,0 +1,11 @@
+<launch>
+
+
+  <node pkg ="zayne_move_robot"
+        type="main.py"
+        name="zayne_move_robot_node"
+        output="screen">
+  </node>
+
+
+</launch>

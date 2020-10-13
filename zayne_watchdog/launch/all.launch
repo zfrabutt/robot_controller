@@ -1,0 +1,10 @@
+<launch>
+
+    <node pkg ="zayne_watchdog"
+        type="main.py"
+        name="zayne_watchdog_node"
+        output="screen">
+
+  </node>
+
+</launch>

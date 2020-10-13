@@ -1,0 +1,27 @@
+<launch>
+
+  <node pkg ="zayne_all"
+        type="main.py"
+        name="zayne_all_node"
+        output="screen">
+  </node>
+
+  <node pkg ="zayne_move_robot"
+        type="main.py"
+        name="zayne_move_robot_node"
+        output="screen">
+  </node>
+
+    <node pkg ="zayne_watchdog"
+        type="main.py"
+        name="zayne_watchdog_node"
+        output="screen">
+  </node>
+
+    <node pkg ="zayne_keyboard_input"
+        type="main.py"
+        name="zayne_keyboard_input_node"
+        output="screen">
+  </node>
+
+</launch>
